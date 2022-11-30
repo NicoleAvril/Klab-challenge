@@ -1,0 +1,131 @@
+p{
+    color:rgb(88, 86, 86);
+}
+
+h2{
+    color:rgb(26, 23, 23);
+    
+}
+
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-content: center;
+ max-width: max-content;
+ max-height: max-content;
+}
+
+#division1{
+display: flex;
+justify-content: flex-start;
+justify-content: space-around;
+display: block;
+width: 50vw;
+height: 100vh;
+color:rgb(80, 80, 209);
+background-color: rgb(80, 80, 209);
+padding-left: 5vw;
+padding-top: 6vw;
+}
+
+#division5{
+    z-index: index 5;
+    width: 50vw;
+    height: 90vh;
+    background-image: url("pics/ballba.png");
+    background-repeat: no-repeat;
+    background-size: 685px 520px;    
+    background-color:  rgb(235, 235, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#division2{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    display: block;
+    width: 50vw;
+    height: 100vh;
+    color: rgb(200, 200, 235);
+    background-color: rgb(200, 200, 235);
+    padding-right: 5vw;
+    padding-top: 6vw;
+}
+
+#division3{
+    z-index: index 5;
+    width: 50vw;
+    height: 90vh;
+    color: #f5f5fa;
+    background-color: #f5f5fa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    display: block;
+    justify-content: space-around;
+    padding-left: 120px;
+    padding-right: 120px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#division4{
+    z-index: index 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 241);
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 1vw;
+    
+
+}
+
+#checking{
+    display: flexbox;
+}
+
+#sbutton{
+    display: flex;
+    align-self: center;
+    background-color: rgb(106, 106, 238);
+    font-size: medium;
+    font-weight: 200;
+    color: #f5f5fa;
+    border-radius: 30px;
+    box-sizing: 600px;
+}
+
+#inputting{
+    border-style: none;
+    border-radius: 6px;
+    width: 100%;
+    
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
